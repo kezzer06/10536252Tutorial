@@ -1,0 +1,86 @@
+PS C:\Users\kezze\OneDrive\devopstool\b8it148-angular> docker build -t myapp:v1 .
+[+] Building 120.4s (13/15)
+ => [internal] load build definition from Dockerfile                                                              16.3s
+ => => transferring dockerfile: 236B                                                                               0.0s
+ => [internal] load .dockerignore                                                                                 12.2s
+ => => transferring context: 2B                                                                                    0.0s
+ => [internal] load metadata for docker.io/library/nginx:1.17.1-alpine                                             4.7s
+ => [internal] load metadata for docker.io/library/node:12.7-alpine                                                4.4s
+ => [auth] library/nginx:pull token for registry-1.docker.io                                                       0.0s
+ => [auth] library/node:pull token for registry-1.docker.io                                                        0.0s
+ => CACHED [stage-1 1/2] FROM docker.io/library/nginx:1.17.1-alpine@sha256:17bd1698318e9c0f9ba2c5ed49f53d690684da  0.5s
+ => [build 1/6] FROM docker.io/library/node:12.7-alpine@sha256:300e3d2c19067c1aec9d9b2bd3acbd43d53797a5836d70a23e  0.0s
+ => [internal] load build context                                                                                 33.2s
+ => => transferring context: 3.17MB                                                                               31.8s
+ => CACHED [build 2/6] WORKDIR /app                                                                                0.0s
+ => CACHED [build 3/6] COPY package*.json ./                                                                       0.0s
+ => CACHED [build 4/6] RUN npm install                                                                             0.0s
+ => [build 5/6] COPY . .                                                                                          27.3s
+ => [build 6/6] RUN npm run build                                                                                 35.2s
+ => => # > b8it148-angular@0.0.0 build /app
+ => => # > ng build
+ => => # Compiling @angular/core : es2015 as esm2015
+[+] Building 122.8s (13/15)
+ => [internal] load build definition from Dockerfile                                                              16.3s
+ => => transferring dockerfile: 236B                                                                               0.0s
+ => [internal] load .dockerignore                                                                                 12.2s
+ => => transferring context: 2B                                                                                    0.0s
+ => [internal] load metadata for docker.io/library/nginx:1.17.1-alpine                                             4.7s
+ => [internal] load metadata for docker.io/library/node:12.7-alpine                                                4.4s
+ => [auth] library/nginx:pull token for registry-1.docker.io                                                       0.0s
+ => [auth] library/node:pull token for registry-1.docker.io                                                        0.0s
+ => CACHED [stage-1 1/2] FROM docker.io/library/nginx:1.17.1-alpine@sha256:17bd1698318e9c0f9ba2c5ed49f53d690684da  0.5s
+ => [build 1/6] FROM docker.io/library/node:12.7-alpine@sha256:300e3d2c19067c1aec9d9b2bd3acbd43d53797a5836d70a23e  0.0s
+ => [internal] load build context                                                                                 33.2s
+ => => transferring context: 3.17MB                                                                               31.8s
+ => CACHED [build 2/6] WORKDIR /app                                                                                0.0s
+ => CACHED [build 3/6] COPY package*.json ./                                                                       0.0s
+ => CACHED [build 4/6] RUN npm install                                                                             0.0s
+ => [build 5/6] COPY . .                                                                                          27.3s
+ => [build 6/6] RUN npm run build                                                                                 37.7s
+ => => # > b8it148-angular@0.0.0 build /app
+ => => # > ng build
+ => => # Compiling @angular/core : es2015 as esm2015
+[+] Building 129.2s (13/15)
+ => [internal] load build definition from Dockerfile                                                              16.3s
+ => => transferring dockerfile: 236B                                                                               0.0s
+ => [internal] load .dockerignore                                                                                 12.2s
+ => => transferring context: 2B                                                                                    0.0s
+ => [internal] load metadata for docker.io/library/nginx:1.17.1-alpine                                             4.7s
+ => [internal] load metadata for docker.io/library/node:12.7-alpine                                                4.4s
+ => [auth] library/nginx:pull token for registry-1.docker.io                                                       0.0s
+ => [auth] library/node:pull token for registry-1.docker.io                                                        0.0s
+ => CACHED [stage-1 1/2] FROM docker.io/library/nginx:1.17.1-alpine@sha256:17bd1698318e9c0f9ba2c5ed49f53d690684da  0.5s
+ => [build 1/6] FROM docker.io/library/node:12.7-alpine@sha256:300e3d2c19067c1aec9d9b2bd3acbd43d53797a5836d70a23e  0.0s
+ => [internal] load build context                                                                                 33.2s
+ => => transferring context: 3.17MB                                                                               31.8s
+ => CACHED [build 2/6] WORKDIR /app                                                                                0.0s
+ => CACHED [build 3/6] COPY package*.json ./                                                                       0.0s
+ => CACHED [build 4/6] RUN npm install                                                                             0.0s
+ => [build 5/6] COPY . .                                                                                          27.3s
+ => [build 6/6] RUN npm run build                                                                                 44.0s
+[+] Building 589.9s (13/15)
+ => [internal] load build definition from Dockerfile                                                                                                                                      16.3s
+ => => transferring dockerfile: 236B                                                                                                                                                       0.0s
+ => [internal] load .dockerignore                                                                                                                                                         12.2s
+ => => transferring context: 2B                                                                                                                                                            0.0s
+ => [internal] load metadata for docker.io/library/nginx:1.17.1-alpine                                                                                                                     4.7s
+ => [internal] load metadata for docker.io/library/node:12.7-alpine                                                                                                                        4.4s
+ => [auth] library/nginx:pull token for registry-1.docker.io                                                                                                                               0.0s
+ => [auth] library/node:pull token for registry-1.docker.io                                                                                                                                0.0s
+ => CACHED [stage-1 1/2] FROM docker.io/library/nginx:1.17.1-alpine@sha256:17bd1698318e9c0f9ba2c5ed49f53d690684dab7fe3e8019b855c352528d57be                                                0.5s
+ => [build 1/6] FROM docker.io/library/node:12.7-alpine@sha256:300e3d2c19067c1aec9d9b2bd3acbd43d53797a5836d70a23e437a5634bcd33a                                                            0.0s
+ => [internal] load build context                                                                                                                                                         33.2s
+ => => transferring context: 3.17MB                                                                                                                                                       31.8s
+ => CACHED [build 2/6] WORKDIR /app                                                                                                                                                        0.0s
+ => CACHED [build 3/6] COPY package*.json ./                                                                                                                                               0.0s
+ => CACHED [build 4/6] RUN npm install                                                                                                                                                     0.0s
+ => [build 5/6] COPY . .                                                                                                                                                                  27.3s
+ => [build 6/6] RUN npm run build                                                                                                                                                        504.7s
+ => => # ble codec.
+ => => #     at process (/app/node_modules/adjust-sourcemap-loader/lib/process/index.js:68:15)
+ => => #     at onSuccess (/app/node_modules/resolve-url-loader/index.js:184:24)
+ => => # (node:24) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throw
+ => => # ing inside of an async function without a catch block, or by rejecting a promise which was not handled with .c
+ => => # atch(). (rejection id: 2)
+[
